@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .text {
+    width: 55%;
+}
+.wrapper .image{
+    width: 270px;
+}
+.image img{
+    width: 100%;
+}
+p{
+    font-size: 23px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    height: 60px;
+    width: 300px;
+    border: 1px solid #FD6D29;
+    color: #FD6D29;
+    background-color: white;
+    transition: 1s all ease-in-out;
+    border-radius: 15px;
+    font-size: 23px;
+    margin-top: 10px;
+
+}
+.btn button:hover{
+    background-color: #FD6D29;
+    color: white;
+}
